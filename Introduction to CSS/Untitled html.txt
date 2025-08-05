@@ -1,0 +1,98 @@
+
+| Tag               | Purpose                    |
+| ----------------- | -------------------------- |
+| `<!DOCTYPE html>` | HTML5 document declaration |
+| `<html>`          | Root element               |
+| `<head>`          | Metadata, title, links     |
+| `<title>`         | Webpage title              |
+| `<body>`          | Main content of page       |
+
+| Tag              | Purpose                        |
+| ---------------- | ------------------------------ |
+| `<h1>` to `<h6>` | Headings (largest to smallest) |
+| `<p>`            | Paragraph                      |
+| `<br>`           | Line break                     |
+| `<hr>`           | Horizontal line                |
+| `<strong>`       | Bold text (semantic)           |
+| `<b>`            | Bold text (non-semantic)       |
+| `<em>`           | Italic text (semantic)         |
+| `<i>`            | Italic text (non-semantic)     |
+| `<u>`            | Underline text                 |
+| `<small>`        | Small-sized text               |
+| `<mark>`         | Highlighted text               |
+| `<sub>`          | Subscript                      |
+| `<sup>`          | Superscript                    |
+| Tag        | Purpose                   |
+| ---------- | ------------------------- |
+| `<a>`      | Anchor (Hyperlink)        |
+| `<img>`    | Image                     |
+| `<video>`  | Embed video               |
+| `<audio>`  | Embed audio               |
+| `<source>` | Source for video/audio    |
+| `<iframe>` | Embed other webpages/maps |
+| Tag       | Purpose                              |
+| --------- | ------------------------------------ |
+| `<style>` | Internal CSS                         |
+| `<link>`  | External CSS or favicon              |
+| `<meta>`  | Metadata like charset, viewport, SEO |
+| Tag         | Purpose                   |
+| ----------- | ------------------------- |
+| `<div>`     | Block container           |
+| `<span>`    | Inline container          |
+| `<header>`  | Page or section header    |
+| `<footer>`  | Page or section footer    |
+| `<nav>`     | Navigation bar/links      |
+| `<section>` | Page section              |
+| `<article>` | Independent content block |
+| `<aside>`   | Sidebar content           |
+| `<main>`    | Main content area         |
+| Tag    | Purpose                  |
+| ------ | ------------------------ |
+| `<ul>` | Unordered list (bullets) |
+| `<ol>` | Ordered list (numbers)   |
+| `<li>` | List item                |
+| `<dl>` | Definition list          |
+| `<dt>` | Term in definition list  |
+| `<dd>` | Definition of term       |
+| Tag         | Purpose             |
+| ----------- | ------------------- |
+| `<table>`   | Table               |
+| `<tr>`      | Table row           |
+| `<td>`      | Table data (cell)   |
+| `<th>`      | Table header        |
+| `<thead>`   | Table head          |
+| `<tbody>`   | Table body          |
+| `<tfoot>`   | Table footer        |
+| `<caption>` | Table title/caption |
+| Tag          | Purpose              |
+| ------------ | -------------------- |
+| `<form>`     | Form container       |
+| `<input>`    | Input field          |
+| `<textarea>` | Multiline text input |
+| `<label>`    | Label for input      |
+| `<select>`   | Dropdown             |
+| `<option>`   | Option in dropdown   |
+| `<button>`   | Clickable button     |
+| `<fieldset>` | Group form elements  |
+| `<legend>`   | Title for fieldset   |
+| Tag          | Purpose                  |
+| ------------ | ------------------------ |
+| `<script>`   | JavaScript code          |
+| `<noscript>` | Shown if JS disabled     |
+| `<canvas>`   | Drawing graphics with JS |
+| `<svg>`      | Scalable Vector Graphics |
+| Tag            | Purpose                      |
+| -------------- | ---------------------------- |
+| `<main>`       | Main content of the page     |
+| `<section>`    | Logical section              |
+| `<article>`    | Independent article/post     |
+| `<aside>`      | Sidebar or extra content     |
+| `<figure>`     | Self-contained content/image |
+| `<figcaption>` | Caption for figure           |
+| Tag                         | Purpose                  |
+| --------------------------- | ------------------------ |
+| `alt` (attribute)           | Alternative image text   |
+| `aria-*`                    | Accessibility attributes |
+| `<meta name="description">` | SEO                      |
+
+
