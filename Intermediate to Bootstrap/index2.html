@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spice Garden — Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/img/logo-placeholder.png" alt="logo" width="48" height="48" class="me-2">
+        <div>
+          <strong>Spice Garden</strong><br>
+          <small class="text-muted">Pakistani & Indian fusion</small>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-white">
+          <h1 class="display-5">Welcome to Spice Garden</h1>
+          <p class="lead">Delicious Pakistani & Indian fusion — warm flavours, family recipes.</p>
+          <a href="menu.html" class="btn btn-warning btn-lg me-2">View Menu</a>
+          <a href="reservation.html" class="btn btn-outline-light btn-lg">Reserve a Table</a>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <img src="assets/img/hero-placeholder.jpg" alt="food" class="img-fluid rounded shadow">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Featured carousel -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Featured Dishes</h2>
+      <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner rounded shadow-sm">
+          <div class="carousel-item active">
+            <div class="carousel-color slide-1 d-flex align-items-center justify-content-center">
+              <div class="carousel-caption d-none d-md-block text-start text-white">
+                <h3>Butter Chicken</h3>
+                <p>Rich, creamy, and aromatic — customer favorite.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-color slide-2 d-flex align-items-center justify-content-center">
+              <div class="carousel-caption d-none d-md-block text-start text-white">
+                <h3>Biryani</h3>
+                <p>Fragrant rice with tender meat and bold spices.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-color slide-3 d-flex align-items-center justify-content-center">
+              <div class="carousel-caption d-none d-md-block text-start">
+                <h3>Gulab Jamun</h3>
+                <p>Warm, sweet, and indulgent dessert to finish your meal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specials & Testimonials -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Special Offer</h5>
+              <p class="card-text">Weekday lunch special: 20% off mains (Mon–Fri, 11:00–3:00).</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#offerModal">View Offer</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h5>Customer Testimonials</h5>
+          <div class="list-group">
+            <div class="list-group-item">"Amazing flavors — best butter chicken in town." — Ayesha</div>
+            <div class="list-group-item">"Cozy atmosphere, excellent service." — Umar</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>
+        <strong>Spice Garden</strong><br>
+        <small>123 Main Street, Downtown | (555) 123-4567</small>
+      </div>
+      <div class="social">
+        <a href="#" class="text-white me-2">Facebook</a>
+        <a href="#" class="text-white me-2">Instagram</a>
+        <a href="#" class="text-white">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Offer Modal -->
+  <div class="modal fade" id="offerModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Weekday Lunch Special</h5>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>Enjoy 20% off on mains from Monday to Friday between 11:00 AM and 3:00 PM.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu — Spice Garden</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- Include the same navbar (or use server includes in real projects) -->
+  ...
+  <!-- Main Menu -->
+  <div class="container py-5">
+    <h2 class="mb-4">Our Menu</h2>
+    <div class="row gy-4">
+      <!-- Example Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="assets/img/samosa.jpg" class="card-img-top" alt="Samosa">
+          <div class="card-body">
+            <h5 class="card-title">Samosas <span class="badge bg-success ms-2">Veg</span></h5>
+            <p class="card-text">Crispy pastry stuffed with spiced potatoes.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <small class="text-muted">Price: $2.50</small>
+              </div>
+              <div class="spice">
+                <div class="progress" style="height:8px; width:80px;">
+                  <div class="progress-bar" role="progressbar" style="width: 1/5*100%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more cards for mains, desserts, drinks -->
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Spice Garden</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- navbar -->
+  ...
+  <div class="container py-5">
+    <h2>Our Story</h2>
+    <p>Spice Garden started 15 years ago with a family recipe for butter chicken. Mrs. Sarah Ahmed opened the restaurant to bring homestyle flavors to Downtown.</p>
+
+    <div class="row gy-4 mt-4">
+      <div class="col-md-6">
+        <h5>Opening Hours</h5>
+        <p>Mon–Sun, 11:00 AM – 10:00 PM</p>
+      </div>
+      <div class="col-md-6">
+        <h5>Location</h5>
+        <p>123 Main Street, Downtown</p>
+        <!-- Map placeholder -->
+        <div class="ratio ratio-16x9">
+          <iframe src="https://maps.google.com/maps?q=123%20Main%20Street&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
