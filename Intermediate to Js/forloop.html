@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forloop in Js</title>
+</head>
+<body>
+    <h1>Javascript Forloop</h1>
+    <p id="demo"></p>
+    <script>
+        const cars = ["BMW","Volvo","Ford","Fiat","Audi"];
+        let text = "";
+        for(let i = 0;i<cars.length;i++){
+            text += cars[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>
+
+//number
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number in For loop</title>
+</head>
+<body>
+<h1>Javascript Forloop with Numbers</h1>
+<p id="demo"></p> 
+<script>
+    let i=5;
+    for(let i=0;i<10;i++){
+        textContent += "The number is " + i + "<br>";
+    }
+    document.getElementById("demo").innerHTML = i;
+</script>
+</body>
+</html>
