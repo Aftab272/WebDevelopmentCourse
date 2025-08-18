@@ -8,3 +8,4 @@ Bootstrap Integration Bootstrap ka use layout aur design easy banata hai: - Cont
 Complete Game Flow
 Page load → Default dice image show hoti hai. 2. User "Roll Dice" button click karta hai. 3. JavaScript run hoti hai aur random numbers generate hote hain. 4. Dice images update hoti hain. 5. Winner decide hota hai aur result show hota hai.
 Recap- HTML → Structure (skeleton) - CSS → Styling (colors, fonts, layout) - JavaScript → Logic (random numbers, image update, winner) - Bootstrap → Ready-made design & layout | Screenshot 1 | Screenshot 2 | Screenshot 3 | Screenshot 4 | |--------------|--------------|--------------|--------------| |
+
