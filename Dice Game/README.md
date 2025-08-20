@@ -1,73 +1,12 @@
-# WebDevelopmentCourse
-# Front-End Web Development Course
+Dice Game – Theory Based Structure
 
-Welcome to the Front-End Web Development course repository! This repository contains comprehensive learning materials for mastering front-end web development skills.
+Project Structure dice-game/ styling to dice6.png) index.html → Game ka main structure (skeleton) index.js → Game ka logic (JavaScript code)
+index.html (HTML Structure) styles.css → Design aur /images → Dice images (dice1.png HTML file game ka skeleton hai jisme: - h1: Game ka title - div: Players ke dice images aur text img: Dice images - button: Roll Dice button Flow: User button dabata hai → JS function run hota hai → Dice images update hoti hain → Result show hota hai.
+styles.css (CSS Styling) CSS file game ka design banati hai: - Background dark aur attractive hai - Title bada aur yellow color ke sath shadowed - Dice images fixed size aur shadow ke sath - Result text bold aur green color Ye sab game ko visually appealing banata hai.
+index.js (JavaScript Logic) JavaScript game ka dimaag hai. Steps: 1. Random number generate karna (1–6) 2. Dice images ko update karna 3. Comparison karna aur winner decide karna Flow: Button click → Random dice numbers → Images update → Result display.
+Bootstrap Integration Bootstrap ka use layout aur design easy banata hai: - Container: content center karne ke liye - Row & Columns: Player dice ko side-by-side dikhane ke liye - Buttons: Ready-made attractive buttons Ye custom CSS ka kaam kam kar deta hai.
+Complete Game Flow
+Page load → Default dice image show hoti hai. 2. User "Roll Dice" button click karta hai. 3. JavaScript run hoti hai aur random numbers generate hote hain. 4. Dice images update hoti hain. 5. Winner decide hota hai aur result show hota hai.
+Recap- HTML → Structure (skeleton) - CSS → Styling (colors, fonts, layout) - JavaScript → Logic (random numbers, image update, winner) - Bootstrap → Ready-made design & layout | Screenshot 1 | Screenshot 2 | Screenshot 3 | Screenshot 4 | |--------------|--------------|--------------|--------------| |
+https://github.com/Aftab272/WebDevelopmentCourse/blob/9d16bcd91e701f7590eda10ae8e62aa063db23a9/Dice%20Game/Screenshot%202025-08-18%20180040.png
 
-## 📚 Course Materials
-
-### 📖 Learning Resources
-
-- **[Web Development Syllabus](./2.1%20Web%20Dev%20Syllabus.pdf)** - Complete course syllabus covering all topics and learning objectives
-- **[12 Rules to Learn to Code eBook](./5.1%2012%20Rules%20to%20Learn%20to%20Code%20eBook%20[Updated%2026.11.18].pdf)** - Essential guidelines and best practices for learning to code effectively
-
-## 🎯 Course Overview
-
-This course is designed to provide a comprehensive understanding of front-end web development, covering essential technologies and best practices. Whether you're a beginner or looking to enhance your skills, this course offers structured learning materials to help you succeed.
-
-## 📋 What You'll Learn
-
-Based on the course materials, you'll explore:
-
-- **HTML Fundamentals** - Structure and semantics
-- **CSS Styling** - Layouts, responsive design, and modern CSS techniques
-- **JavaScript Programming** - Core concepts, DOM manipulation, and modern ES6+ features
-- **Web Development Best Practices** - Performance optimization, accessibility, and code quality
-- **Modern Development Tools** - Version control, build tools, and development workflows
-
-## 🚀 Getting Started
-
-1. **Download the Materials**: All course materials are available as PDF files in this repository
-2. **Follow the Syllabus**: Start with the Web Development Syllabus for a structured learning path
-3. **Apply the 12 Rules**: Use the eBook as a guide for effective learning practices
-4. **Practice Regularly**: Apply what you learn through hands-on projects
-
-## 📁 Repository Structure
-
-```
-Front-End Web Development/
-├── README.md                                    # This file
-├── 2.1 Web Dev Syllabus.pdf                    # Course syllabus
-└── 5.1 12 Rules to Learn to Code eBook.pdf    # Learning guidelines
-```
-
-## 🎓 Learning Path
-
-1. **Begin with the Syllabus**: Review the complete course outline to understand the learning objectives
-2. **Study the 12 Rules**: Internalize the best practices for effective coding education
-3. **Follow the Structured Approach**: Use the syllabus as your roadmap for systematic learning
-4. **Practice and Build**: Apply concepts through practical projects and exercises
-
-## 💡 Tips for Success
-
-- **Consistency is Key**: Dedicate regular time to study and practice
-- **Hands-on Learning**: Code along with examples and build your own projects
-- **Stay Updated**: Web development evolves rapidly - keep learning new technologies
-- **Join Communities**: Connect with other learners and developers for support
-
-## 🤝 Contributing
-
-This is a learning repository. Feel free to:
-- Share your learning progress
-- Suggest improvements to the materials
-- Add your own notes and examples
-- Help other learners in their journey
-
-## 📞 Support
-
-If you have questions about the course materials or need clarification on any topics, please refer to the syllabus document or reach out to the course instructor.
-
----
-
-**Happy Learning! 🎉**
-
-*Remember: The journey to becoming a skilled front-end developer starts with the first line of code. Keep coding, keep learning!*
