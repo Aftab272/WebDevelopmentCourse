@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  background: radial-gradient(1200px 600px at 50% -10%, #3a4569, #0f1424) fixed;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  margin: 40px 0 10px;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin: 30px 0 40px;
+}
+
+.w {
+  background-image: url("sounds/DS_Store/MACOSX/Images/tom1.png");
+}
+
+.a {
+  background-image: url("sounds/DS_Store/MACOSX/Images/tom2.png");
+}
+
+.s {
+  background-image: url("sounds/DS_Store/MACOSX/Images/tom3.png");
+}
+
+.d {
+  background-image: url("sounds/DS_Store/MACOSX/Images/tom4.png");
+}
+
+.j {
+  background-image: url("sounds/DS_Store/MACOSX/Images/snare.png");
+}
+
+.k {
+  background-image: url("sounds/DS_Store/MACOSX/Images/crash.png");
+}
+
+.l {
+  background-image: url("sounds/DS_Store/MACOSX/Images/kick.png");
+}
+
+.set {
+  margin: 30px auto 10px;
+  width: min(1000px, 92%);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 18px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 8px 24px rgba(219, 237, 243, 0.4);
+  transform: scale(0.96);
+  opacity: 0.9;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 3rem;
+  font-family: 'Arvo', cursive;
+  line-height: 1;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 160px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center 24px;
+  background-size: 80% auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25), inset 0 -6px 0 rgba(0,0,0,0.2);
+  transition: transform 120ms ease, box-shadow 120ms ease, opacity 120ms ease;
+}
+
+.drum:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.35), inset 0 -6px 0 rgba(0,0,0,0.2);
+}
+
+@media (max-width: 520px) {
+  h1 { font-size: 3rem; }
+  .drum { height: 140px; font-size: 2.2rem; }
+}
