@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rana Aftab | Web Developer</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body data-theme="light">
+  <!-- ===== Navbar ===== -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-body-tertiary shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home"><span class="text-primary">Rana</span> Aftab</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navmenu" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <button id="themeToggle" class="btn btn-outline-primary btn-sm">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <section id="home" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6 order-lg-2 text-center">
+          <!-- Put your real image in images/profile.png -->
+          <div class="profile-wrap mx-auto">
+            <img src="C:\Users\ranaa\OneDrive\Pictures\Screenshots 1\Screenshot 2025-08-02 131903.png" alt="Rana Aftab" class="profile-image">
+            <div class="profile-bg"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+          <h1 class="hero-title">Rana Aftab</h1>
+          <p class="hero-subtitle"><span id="typing"></span></p>
+          <p class="hero-desc">
+            I build modern, responsive websites using HTML, CSS, JavaScript & Bootstrap and I’m learning the MERN stack.
+          </p>
+          <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mt-3">
+            <a href="#projects" class="btn btn-primary btn-lg"><i class="fa-solid fa-rocket me-2"></i>View Projects</a>
+            <a href="#contact" class="btn btn-outline-primary btn-lg"><i class="fa-solid fa-envelope me-2"></i>Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- floating shapes -->
+    <div class="floating-shapes">
+      <span class="shape s1"></span>
+      <span class="shape s2"></span>
+      <span class="shape s3"></span>
+      <span class="shape s4"></span>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-9">
+          <h2 class="section-title">About Me</h2>
+          <p class="lead text-muted">
+            I’m a Computer Science student at CUI Vehari focused on building clean, accessible, and responsive interfaces. I love bringing ideas to life in the browser with delightful interactions.
+          </p>
+
+          <!-- University Info -->
+          <div class="card soft-card mt-4 reveal">
+            <div class="row align-items-center g-3 g-md-4">
+              <div class="col-md-3 text-center">
+                <!-- Put your uni logo in images/cui.jpg -->
+                <img src="C:\Users\ranaa\OneDrive\Pictures\cui.jpg" class="uni-logo" alt="CUI Vehari">
+              </div>
+              <div class="col-md-9 text-md-start text-center">
+                <h5 class="mb-1">COMSATS University Islamabad, Vehari Campus</h5>
+                <p class="mb-2 text-primary fw-semibold">Department of Computer Science — Software Engineering</p>
+                <p class="mb-0 text-muted">Student of Computer Science</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stats -->
+          <div class="row g-3 mt-4">
+            <div class="col-6 col-md-4">
+              <div class="about-stat reveal">
+                <h3>6+</h3><p>Months Experience</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4">
+              <div class="about-stat reveal">
+                <h3>15+</h3><p>Projects</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="about-stat reveal">
+                <h3>100%</h3><p>Satisfaction</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section-padding bg-light-subtle">
+    <div class="container">
+      <h2 class="section-title text-center">Skills</h2>
+      <div class="row g-4">
+        <!-- Skill Card -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+            <h5>HTML5</h5>
+            <p class="text-muted">Semantic & Accessible</p>
+            <div class="skill-level">
+              <div class="skill-bar" style="--level:95%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+            <h5>CSS3</h5>
+            <p class="text-muted">Responsive & Animations</p>
+            <div class="skill-level">
+              <div class="skill-bar" style="--level:90%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fab fa-js"></i></div>
+            <h5>JavaScript</h5>
+            <p class="text-muted">ES6+ & DOM</p>
+            <div class="skill-level">
+              <div class="skill-bar" style="--level:85%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+            <h5>Bootstrap</h5>
+            <p class="text-muted">Responsive UI</p>
+            <div class="skill-level">
+              <div class="skill-bar" style="--level:90%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Optional MERN lane -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fab fa-react"></i></div>
+            <h5>React</h5>
+            <p class="text-muted">Components & Hooks</p>
+            <div class="skill-level">
+              <div class="skill-bar" style="--level:70%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+            <h5>Node.js</h5>
+            <p class="text-muted">APIs & Tools</p>
+            <div class="skill-level">
+              <div class="skill-bar" style="--level:65%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+            <h5>MongoDB</h5>
+            <p class="text-muted">NoSQL</p>
+            <div class="skill-level">
+              <div class="skill-bar" style="--level:60%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+            <h5>Git</h5>
+            <p class="text-muted">Version Control</p>
+            <div class="skill-level">
+              <div class="skill-bar" style="--level:80%;"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <h2 class="section-title text-center">Projects</h2>
+      <div class="row g-4">
+
+        <!-- Project -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card reveal h-100">
+            <div class="project-img-wrap">
+              <img src="C:\Users\ranaa\OneDrive\Pictures\dice1.jpg" alt="Dice Game">
+            </div>
+            <div class="p-3">
+              <h5>Dice Game</h5>
+              <p class="text-muted">Interactive dice game (HTML/CSS/JS/Bootstrap) with score tracking & responsive UI.</p>
+              <div class="d-flex gap-2 flex-wrap">
+                <a href="#" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square me-1"></i>Live</a>
+                <a href="https://github.com/Aftab272/Dice-Game" target="_blank" class="btn btn-sm btn-outline-dark"><i class="fab fa-github me-1"></i>Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card reveal h-100">
+            <div class="project-img-wrap">
+              <img src="C:\Users\ranaa\OneDrive\Pictures\kit drum.jpg" alt="Kit Drum">
+            </div>
+            <div class="p-3">
+              <h5>Kit Drum</h5>
+              <p class="text-muted">Virtual drum kit playable with keyboard/mouse. Fun audio interactions.</p>
+              <div class="d-flex gap-2 flex-wrap">
+                <a href="#" class="btn btn-sm btn-primary">Live</a>
+                <a href="https://github.com/Aftab272/Kit-Drum" target="_blank" class="btn btn-sm btn-outline-dark"><i class="fab fa-github me-1"></i>Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project -->
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card reveal h-100">
+            <div class="project-img-wrap">
+              <img src="C:\Users\ranaa\OneDrive\Pictures\Spice Garden.png" alt="Spice Garden">
+            </div>
+            <div class="p-3">
+              <h5>Spice Garden Restaurant We</h5>
+              <p class="text-muted">Professional, responsive websites with Bootstrap & modern JS patterns.</p>
+              <div class="d-flex gap-2 flex-wrap">
+                <a href="#" class="btn btn-sm btn-primary">Live</a>
+                <a href="https://github.com/Aftab272" target="_blank" class="btn btn-sm btn-outline-dark"><i class="fab fa-github me-1"></i>Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section id="education" class="section-padding bg-light-subtle">
+    <div class="container">
+      <h2 class="section-title text-center">Education</h2>
+
+      <div class="row justify-content-center g-4">
+        <!-- FSC (Medical) — Muslim College Multan -->
+        <div class="col-lg-8">
+          <div class="education-card reveal">
+            <div class="row align-items-center g-3">
+              <div class="col-md-3 text-center">
+                <!-- Put your college logo in images/muslim-college.jpg -->
+                <img src="C:\Users\ranaa\OneDrive\Pictures/muslim college.jpg" class="edu-logo" alt="Muslim College Multan">
+              </div>
+              <div class="col-md-9">
+                <h4 class="mb-1">FSc (Medical)</h4>
+                <h6 class="text-muted mb-2">Muslim College Multan</h6>
+                <div class="edu-meta">
+                  <span><i class="fa-regular fa-calendar me-2"></i>2022 - 2024</span>
+                  <span><i class="fa-solid fa-location-dot ms-3 me-2"></i>Multan, Pakistan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- COMSATS Vehari — Software Engineering title -->
+        <div class="col-lg-8">
+          <div class="education-card reveal">
+            <div class="row align-items-center g-3">
+              <div class="col-md-3 text-center">
+                <!-- Campus mark in images/vehari.png (optional) -->
+                <img src="C:\Users\ranaa\OneDrive\Pictures\cui building.jpg" class="edu-logo" alt="COMSATS Vehari">
+              </div>
+              <div class="col-md-9">
+                <h4 class="mb-1">Bachelor — Computer Science</h4>
+                <h6 class="text-muted mb-2">COMSATS University Islamabad, Vehari Campus</h6>
+                <p class="mb-2">Degree Title: <strong>Software Engineering</strong></p>
+                <div class="edu-meta">
+                  <span><i class="fa-regular fa-calendar me-2"></i>2024 - Present</span>
+                  <span><i class="fa-solid fa-location-dot ms-3 me-2"></i>Vehari, Pakistan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Building + Map (image preview) -->
+        <div class="col-lg-8">
+          <div class="education-card reveal">
+            <div class="row g-3 align-items-center">
+              <div class="col-md-5 text-center">
+                <!-- Put building image in images/cui-vehari.jpg -->
+                <img src="C:\Users\ranaa\OneDrive\Pictures\buid 1.jpg" class="w-100 rounded-3" alt="CUI Vehari Building" height="100" width="300">
+              </div>
+              <div className="col-md-7">
+                <div class="ratio ratio-16x9 rounded-3 overflow-hidden shadow-sm">
+                  <iframe
+                    src="https://www.google.com/maps?q=CUI%20Vehari&z=14&output=embed"
+                    loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+                    title="CUI Vehari Map"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>      
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <h2 class="section-title text-center">Get In Touch</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-5">
+          <div class="contact-card reveal">
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h6>Email</h6>
+                <a href="mailto:ranaaftabakram@gmail.com">ranaaftabakram982@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <div>
+                <h6>GitHub</h6>
+                <a href="https://github.com/Aftab272" target="_blank" rel="noopener">github.com/Aftab272</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <div>
+                <h6>LinkedIn</h6>
+                <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">linkedin.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h6>Phone</h6>
+                <a href="tel:+923087917014">+92 308 7917014</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h6>Location</h6>
+                <span>Vehari, Pakistan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input class="form-control" type="text" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" type="email" placeholder="Your Email" required>
+              </div>
+              <div class="col-12">
+                <input class="form-control" type="text" placeholder="Subject">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <div class="col-12 d-grid">
+                <button class="btn btn-primary" type="submit">
+                  <i class="fa-solid fa-paper-plane me-2"></i>Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Vehari map (city) -->
+          <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm mt-4 reveal">
+            <iframe
+              src="https://www.google.com/maps?q=Vehari%20Pakistan&z=12&output=embed"
+              loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+              title="Vehari Map"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer text-center py-4">
+    <div class="container">
+      <p class="mb-2">&copy; <span id="year"></span> Rana Aftab. All rights reserved.</p>
+      <button id="scrollToTop" class="btn btn-primary rounded-circle shadow-sm" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
